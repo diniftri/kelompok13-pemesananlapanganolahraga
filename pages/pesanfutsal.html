@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+      <div>
+        
+            <header class="header"> 
+        <div class="text-sport">
+        ShortField
+        </div>
+
+        <nav>
+            <a href="../index.html">Beranda</a>
+            <a href="lapangan.html">Lapangan</a>
+            <a href="login.html">Tentang</a>
+            <a href="kontak.html">kontak</a>
+        </nav>
+
+        <div class="nav-button">
+            <a href="login.html">Login</a>
+            <a href="daftar.html">Daftar</a>
+        </div>
+
+            </header>
+            <hr>
+
+            <main class="halaman-pemesanan">
+
+    <!-- KOLOM KIRI -->
+    <section class="kolom-kiri">
+
+        <!-- DETAIL LAPANGAN -->
+        <div class="kartu">
+            <h2>Detail Lapangan</h2>
+
+            <div class="detail-pilihan">
+                <img src="../assets/images/futsal1.jpeg"
+                     alt="Lapangan futsal">
+
+                <div class="info-pilihan">
+                    <h3>Lapangan Futsal</h3>
+                    <p class="harga">Rp 100.000 / jam</p>
+                    <p>Jl. Melati No. 12, Bandung</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TANGGAL DAN WAKTU -->
+        <div class="kartu">
+            <h2>Tanggal & Waktu</h2>
+
+            <div class="form-group">
+                <p>Tanggal</p>
+                <input type="date" name="tanggal" required>
+            </div>
+
+            <div class="form-group">
+                <p>Waktu</p>
+                <select name="waktu" required>
+                    <option value="">Pilih waktu</option>
+                    <option>07.00 - 08.00</option>
+                    <option>08.00 - 09.00</option>
+                    <option>09.00 - 10.00</option>
+                    <option>10.00 - 11.00</option>
+                    <option>11.00 - 12.00</option>
+                    <option>13.00 - 14.00</option>
+                    <option>14.00 - 15.00</option>
+                    <option>15.00 - 16.00</option>
+                    <option>16.00 - 17.00</option>
+                    <option>17.00 - 18.00</option>
+                    <option>18.00 - 19.00</option>
+                    <option>19.00 - 20.00</option>
+                    <option>20.00 - 21.00</option>
+                    <option>21.00 - 22.00</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Durasi</p>
+                <select name="durasi">
+                    <option value="1">1 jam</option>
+                    <option value="2">2 jam</option>
+                    <option value="3">3 jam</option>
+                    <option value="4">4 jam</option>
+                </select>
+            </div>
+
+            <div class="total-harga">
+                <p>Total Harga</p>
+                <p>Rp 100.000</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- KOLOM KANAN -->
+    <section class="kartu form-pemesanan">
+
+        <h2>Form Pemesanan</h2>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <p>Nama Lengkap</p>
+                <input type="text" name="nama"
+                       placeholder="Masukkan nama lengkap" required>
+            </div>
+
+            <div class="form-group">
+                <p>No. HP</p>
+                <input type="tel" name="hp"
+                       placeholder="Masukkan nomor HP" required>
+            </div>
+
+            <div class="form-group">
+                <p>Email</p>
+                <input type="email" name="email"
+                       placeholder="Masukkan email" required>
+            </div>
+
+            <div class="metode-pembayaran">
+                <p class="judul-metode">Metode Pembayaran</p>
+
+                <div class="pilihan-pembayaran">
+                    <input type="radio" name="pembayaran"
+                           value="Transfer Bank" required>
+                    <p>Transfer Bank</p>
+                </div>
+
+                <div class="pilihan-pembayaran">
+                    <input type="radio" name="pembayaran"
+                           value="E-Wallet">
+                    <p>E-Wallet (OVO, DANA, GoPay)</p>
+                </div>
+
+                <div class="pilihan-pembayaran">
+                    <input type="radio" name="pembayaran"
+                           value="Cash">
+                    <p>Cash (Bayar di Tempat)</p>
+                </div>
+            </div>
+
+            <button type="submit" class="tombol-konfirmasi">
+                Konfirmasi Pemesanan
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+            
+        <!-- BAGIAN 4 -->
+<hr>
+
+<div class="footer">
+
+    <div>
+        <h3>SportField</h3>
+        <p>Olahraga lebih mudah, bersama kami</p>
+    </div>
+
+    <div class="footer-kanan">
+
+        <div class="footer-link">
+            <a href="../index.html">Beranda</a>
+            <a href="lapangan.html">Lapangan</a>
+            <a href="login.html">Tentang</a>
+            <a href="kontak.html">Kontak</a>
+        </div>
+
+         <div class="footer-sosmed">
+            <img src="../assets/icons/instagram.jpeg" alt="Instagram">
+            <img src="../assets/icons/facebook.jpeg" alt="Facebook">
+            <img src="../assets/icons/youtube.jpeg" alt="YouTube">
+        </div>
+    </div>
+
+</div>
+
+
+
+    </div>
+    
+</body>
+</html>
